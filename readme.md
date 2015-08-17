@@ -15,7 +15,7 @@ $ npm install --save array-insert
 ```js
 var arrayInsert = require('array-insert');
 
-arrayInsert((arrayInsert([1, 2, 4], 2, 3)));
+arrayInsert([1, 2, 4], 2, 3);
 //=> [1, 2, 3, 4]
 ```
 

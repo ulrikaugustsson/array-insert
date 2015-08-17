@@ -25,6 +25,8 @@ it('should return a new array', function () {
 	assert.notEqual(arrayInsert([1, 2, 4], 2, 3), [1, 2, 3 ,4]);
 });
 
-it('should convert non-array items to new array if no array is supplied', function () {
-	assert.deepEqual(arrayInsert(1, 2 ,3), [1, 3]);
+it('should throw TypeError if non-array is supplied', function () {
+	assert.throws(function () {
+		arrayInsert(1, 2, 3);
+	});
 });

@@ -1,6 +1,6 @@
 # array-insert [![Build Status](https://travis-ci.org/ulrikaugustsson/array-insert.svg?branch=master)](https://travis-ci.org/ulrikaugustsson/array-insert)
 
-> My legendary module
+> Return a new array with a inserted item at index
 
 
 ## Install
@@ -15,7 +15,7 @@ $ npm install --save array-insert
 ```js
 var arrayInsert = require('array-insert');
 
-arrayInsert((arrayInsert([1, 2, 4], 2, 3));
+arrayInsert((arrayInsert([1, 2, 4], 2, 3)));
 //=> [1, 2, 3, 4]
 ```
 
@@ -24,7 +24,7 @@ arrayInsert((arrayInsert([1, 2, 4], 2, 3));
 
 ### arrayInsert(arr, pos, item)
 
-#### input
+#### arr
 
 *Required*  
 Type: `array`
@@ -33,17 +33,18 @@ Type: `array`
 
 #### pos
 
-*Required*
-Type: `integer`
+*Required*  
+Type: `number`
 
 2
 
-##### item
+#### item
 
-*Required*
+*Required*  
 Type: `any`
 
 4
+
 
 ## License
 

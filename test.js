@@ -7,7 +7,7 @@ it('should insert a integer', function () {
 });
 
 it('should insert a string', function() {
-	assert.deepEqual(arrayInsert(["a", "c"], 1, "b"), ["a", "b","c"]);
+	assert.deepEqual(arrayInsert(['a', 'c'], 1, 'b'), ['a', 'b','c']);
 });
 
 it('should insert a object', function() {

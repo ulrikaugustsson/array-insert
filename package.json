@@ -1,6 +1,6 @@
 {
   "name": "array-insert",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Return a new array with a inserted item at index.",
   "license": "MIT",
   "repository": "ulrikaugustsson/array-insert",

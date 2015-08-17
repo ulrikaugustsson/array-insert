@@ -7,8 +7,8 @@ it('should add item at correct position', function () {
 });
 
 it('should not modify the old array', function () {
-	let oldArr = [1, 2, 4];
-	let newArr = arrayInsert(oldArr, 2, 3);
+	var oldArr = [1, 2, 4];
+	var newArr = arrayInsert(oldArr, 2, 3);
 	assert.deepEqual(oldArr, [1, 2 ,4]);
 });
 

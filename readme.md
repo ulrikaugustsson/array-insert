@@ -15,31 +15,35 @@ $ npm install --save array-insert
 ```js
 var arrayInsert = require('array-insert');
 
-arrayInsert('unicorns');
-//=> unicorns & rainbows
+arrayInsert((arrayInsert([1, 2, 4], 2, 3));
+//=> [1, 2, 3, 4]
 ```
 
 
 ## API
 
-### arrayInsert(input, [options])
+### arrayInsert(arr, pos, item)
 
 #### input
 
 *Required*  
-Type: `string`
+Type: `array`
 
-Lorem ipsum.
+[1, 2, 3]
 
-#### options
+#### pos
 
-##### foo
+*Required*
+Type: `integer`
 
-Type: `boolean`  
-Default: `false`
+2
 
-Lorem ipsum.
+##### item
 
+*Required*
+Type: `any`
+
+4
 
 ## License
 
